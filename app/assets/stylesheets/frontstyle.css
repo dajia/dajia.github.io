@@ -1,0 +1,55 @@
+.front_page {
+	background-image:url(images/grid_10x10px_black10.png);
+	background-repeat: repeat;
+}        
+
+section.herit.front_content {
+	background-image:none;
+}       
+
+
+.herit.front_content .herit_img {       
+	height:280px;    
+	background:url(images/herit_logo.png) no-repeat center 60px;   	
+}              
+ 
+.herit.front_content .herit_slogan  {
+	height:210px;
+	background:url(images/herit_slogan.png) no-repeat center -23px;
+}
+            
+
+.herit.front_content .herit_img p, .herit.front_content .herit_slogan p {
+	text-align: center;
+	visibility: hidden;
+}
+                   
+
+.herit.front_content .coming p {
+	text-align: center;
+	visibility: visible;  
+	color:#737373; 
+	font-size:20px;   	
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+.container.main_content section.herit.front_content {
+	min-height:320px;
+}
+
+
+.herit.front_content .herit_img {
+	background-size:203px 82px; 
+	background-position:center;
+	height:150px;
+}
+            
+.herit.front_content .herit_slogan {
+	background-size:240px 110px;
+	background-position:center;
+	height:150px;    	
+}
+
+
+}               

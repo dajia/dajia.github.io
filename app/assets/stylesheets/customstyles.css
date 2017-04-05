@@ -1,0 +1,576 @@
+body {
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	color: #333333;
+}
+
+/*.container {
+	width:1024px;
+}*/       
+
+header {
+	position:fixed;
+	top:0px;
+	z-index:999;
+}
+
+.span12 {
+	margin-left:0;
+}          
+a:focus, a:active, a:hover,
+.btn:focus, .btn:active, .btn:hover {
+	outline:0;
+	outline-offset:0;
+}
+/*=========================== Main nav menu ===========================================*/
+.navbar.navbar-inverse {
+	margin-bottom:0px;
+}
+
+
+.navbar-inner {      
+	border:0;
+	/*border-color:#1b1b1b;  */
+	border-radius:0;
+	padding-right: 40px;
+	padding-left: 40px;
+	/*height:58px;*/
+	margin-top:0;   
+	min-height: 60px;       
+	box-shadow:none;
+	-webkit-box-shadow:none;
+}
+.navbar-inverse .nav li, .navbar-inverse .language-switcher.pull-right li {
+	padding-top:10px;
+}
+         
+.navbar-inverse .nav li, .navbar-inverse .language-switcher.pull-right li a {
+	margin-left:0;
+} 
+
+.navbar-inverse .nav li {
+	padding-right:15px;
+}
+
+.navbar-inverse .nav li:first-child {
+	padding-top:9px;
+}
+
+
+.navbar-inverse .nav li:first-child a {   
+		padding:14px 0px 7px 0px;
+}
+
+a.brand span {
+	visibility:hidden;
+}                  
+
+.navbar-inverse .nav li a {
+	color:#fff;
+}
+
+.navbar-inverse .nav li.active > a, .navbar-inverse .nav li.active > a:hover, .navbar-inverse .nav li.active > a:focus,
+a.brand.active, a.brand.active:hover, a.brand.active:focus  {
+	color:#ffffff;       
+	background-color:transparent;
+ 	border-bottom:10px solid #b3b3b3;     
+	box-shadow:none;
+}                                                         
+
+
+.navbar a.brand {
+	visibility:hidden;
+	margin-left:-200px;
+}
+
+.nav-collapse.collapse .nav li:first-child a span {
+	visibility:hidden;    
+	margin-left:-30px;
+}
+
+.language-switcher {
+	list-style: none;
+	margin-top:10px;
+}
+
+.language-switcher li, .language-switcher li a {
+	float:left;
+	margin-left:10px;
+	color:#f5f5f5;
+	line-height: 20px;
+}
+
+.language-switcher li:first-child {
+	padding-right:10px;
+	border-right: 1px solid #f5f5f5;
+}
+
+/*========================================= Main Content ===================================================================*/
+.container.main_content section {
+	min-height:710px;
+	background-image:url(images/grid_10x10px_black10.png);
+	background-repeat: repeat;
+}                
+
+.container.main_content {
+	margin-top:60px;
+}
+
+/*======================= Herit area ==========================================*/
+.about {
+	background-color:#ccc;
+}
+.herit .herit_slogan  {
+	height:300px;
+	background:url(images/herit_slogan.png) no-repeat center 40px;
+}
+
+.herit .herit_img {       
+		height:370px;    
+	background:url(images/herit_logo.png) no-repeat center 189px;   	
+}
+
+.herit .herit_img p, .herit .herit_slogan p {
+	text-align: center;
+	visibility: hidden;
+}
+
+
+.herit_img img {
+	padding-top:130px;
+	/*margin-left:300px;*/
+}
+
+/*======================= About area ==========================================*/  
+.description {
+	width:476px;
+	height:476px;
+	/*border:2px solid #8c8c8c;*/ 
+	margin-top:125px;   
+}
+      
+.description p.el {
+	padding:30px 65px; 	
+}
+
+.description p {
+	padding:55px 65px;
+	text-align:justify;
+	font-size:14px;
+	line-height:23px;
+	font-weight:lighter;
+	color:#000;  
+	width:350px;
+	/*height:376px;*/ 
+	/*margin-left: auto;
+	margin-right: auto; 
+	padding-top:60px;  */   
+	border: 2px solid #8c8c8c;
+}
+
+.squares {
+	background-image:url(images/description_square.png), url(images/description_square.png), url(images/description_square.png), url(images/description_square.png) ;  
+ 	background-position:0 0, 476px 0, 0 476px, 476px 476px;     
+ 	background-repeat:no-repeat;	 
+	width: 507px;
+	height: 506px;
+	margin-left: -4px;
+	margin-top: -6px;
+}            
+/*======================= Features area ==========================================*/  
+.featuresMenu .tab-content {
+	background-color:#fff;
+	padding-top:30px;
+	padding-right:40px;
+	padding-bottom:30px;
+	min-height: 502px;
+}
+       /*================================ Features Menu General ====================================================*/
+.featuresMenu .nav.nav-tabs  {
+	height:189px;
+	border-bottom:1px solid #b2b2b2;
+	margin-bottom:0;	
+}
+
+    
+.featuresMenu ul li, .featuresMenu .nav.nav-tabs .span3 {
+	height:120px;   
+	margin-top:20px;
+	/*width:130px;*/     
+
+}                   
+
+.featuresMenu ul li a, .featuresMenu .nav.nav-tabs .span3 a {
+	text-transform: uppercase; 
+	text-align:center;   
+	color:#b3b3b3;
+	font-size:16px; 
+  padding-top:100px;
+   width:106px;   
+	height:50px;
+}      
+
+.featuresMenu ul li a:hover, .featuresMenu ul.nav-tabs > li >a, .featuresMenu ul.nav-tabs > li >a:hover, .featuresMenu ul.nav-tabs > li >a:focus,
+.featuresMenu .nav.nav-tabs .span3 a, .featuresMenu .nav.nav-tabs .span3 a:hover, .featuresMenu .nav.nav-tabs .span3 a:focus {
+	background-color:transparent;
+	border-color:transparent; 
+	border:0;
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+	border-radius:0;
+	outline:0;
+	outline-offset:0;
+	text-decoration:none;  
+}  
+
+.featuresMenu .nav.nav-tabs.row-fluid a.offset2:first-child {
+margin-left: 13.021277%;
+}
+
+           /*================================ Features Menu collection ============bg image and border applies to a ========================================*/  
+.featuresMenu ul > li.collection a {
+	background:url(images/features_categories_sprite.png) no-repeat center -420px; 
+	background:url(images/features_categories_vertical_srite.png) no-repeat -482px 20px; 	  
+}   
+
+.featuresMenu ul.nav-tabs > li.collection a:hover, 
+.featuresMenu ul.nav-tabs > li.collection.active a,      
+.featuresMenu ul.nav-tabs > li.collection:hover a, 
+.featuresMenu ul.nav-tabs > li.collection.active a:hover, 
+.featuresMenu ul.nav-tabs > li.collection.active a:focus {         
+ 	background:url(images/features_categories_sprite.png) no-repeat center 0px;	 
+	background:url(images/features_categories_vertical_srite.png) no-repeat 38px 20px;  	
+}             
+
+.featuresMenu ul.nav-tabs > li.collection.active a, 
+.featuresMenu ul.nav-tabs > li.collection:hover a {
+	color:#819db3;               
+}
+
+.featuresMenu ul.nav-tabs > li.collection.active a, 
+.featuresMenu ul.nav-tabs > li.collection.active a:hover, 
+.featuresMenu ul.nav-tabs > li.collection.active:hover a, 
+.featuresMenu ul.nav-tabs > li.collection.active a:focus {
+	border-bottom: 10px solid #819db3;
+	padding-bottom: 9px;      
+}  
+           /*================================ Features Menu log ================bg image and border applies to a====================================*/  
+.featuresMenu ul li.log a {
+	background:url(images/features_categories_sprite.png) no-repeat center -525px;
+	background:url(images/features_categories_vertical_srite.png) no-repeat -605px 20px; 	  
+}      
+
+.featuresMenu ul.nav-tabs > li.log a:hover, 
+.featuresMenu ul.nav-tabs > li.log.active a, 
+.featuresMenu ul.nav-tabs > li.log:hover a, 
+.featuresMenu ul.nav-tabs > li.log.active a:hover, 
+.featuresMenu ul.nav-tabs > li.log.active a:focus {
+	color:#9C8B9C;  
+	background:url(images/features_categories_sprite.png) no-repeat center -105px;
+	background:url(images/features_categories_vertical_srite.png) no-repeat -85px 20px;   		 
+} 
+
+.featuresMenu ul.nav-tabs > li.log.active a, 
+.featuresMenu ul.nav-tabs > li.log:hover a {
+	color:#9C8B9C;               
+}      
+.featuresMenu ul.nav-tabs > li.log.active a, 
+.featuresMenu ul.nav-tabs > li.log.active a:hover, 
+.featuresMenu ul.nav-tabs > li.log.active:hover a, 
+.featuresMenu ul.nav-tabs > li.log.active a:focus {
+	border-bottom: 10px solid #9C8B9C;
+	padding-bottom: 9px;
+}            
+       /*================================ Features Menu maintenance ===============bg image and border applies to a=====================================*/  
+
+.featuresMenu ul li.maintenance a {
+	background:url(images/features_categories_sprite.png) no-repeat center -630px;
+	background:url(images/features_categories_vertical_srite.png) no-repeat -740px 20px; 	 	   
+}                                              
+
+.featuresMenu ul.nav-tabs > li.maintenance a:hover, 
+.featuresMenu ul.nav-tabs > li.maintenance.active a, 
+.featuresMenu ul.nav-tabs > li.maintenance:hover a,  
+.featuresMenu ul.nav-tabs > li.maintenance.active a:hover, 
+.featuresMenu ul.nav-tabs > li.maintenance.active a:focus {
+	color:#B5A38B;
+	background:url(images/features_categories_sprite.png) no-repeat center -210px;
+	background:url(images/features_categories_vertical_srite.png) no-repeat -220px 20px;   	 
+}
+.featuresMenu ul.nav-tabs > li.maintenance.active a, 
+.featuresMenu ul.nav-tabs > li.maintenance:hover a {
+	color:#B5A38B;               
+}       
+.featuresMenu ul.nav-tabs > li.maintenance.active a, 
+.featuresMenu ul.nav-tabs > li.maintenance.active a:hover,
+.featuresMenu ul.nav-tabs > li.maintenance.active:hover a,  
+.featuresMenu ul.nav-tabs > li.maintenance.active a:focus {
+	border-bottom: 10px solid #B5A38B;
+	padding-bottom: 9px;
+}   
+               /*================================ Features Menu map ============bg image and border applies to a========================================*/               
+
+.featuresMenu ul li.map a {
+	background:url(images/features_categories_sprite.png) no-repeat center -735px; 
+	background:url(images/features_categories_vertical_srite.png) no-repeat -877px 20px; 	 
+} 
+.featuresMenu ul li.map:hover, .featuresMenu ul li.map.active {
+
+}
+
+.featuresMenu ul.nav-tabs > li.map a:hover, 
+.featuresMenu ul.nav-tabs > li.map.active a, 
+.featuresMenu ul.nav-tabs > li.map:hover a,  
+.featuresMenu ul.nav-tabs > li.map.active a:hover, 
+.featuresMenu ul.nav-tabs > li.map.active a:focus {
+	color:#98A185;
+	background:url(images/features_categories_sprite.png) no-repeat center -315px;
+	background:url(images/features_categories_vertical_srite.png) no-repeat -357px 20px;  	     
+}      
+
+.featuresMenu ul.nav-tabs > li.map.active a, 
+.featuresMenu ul.nav-tabs > li.map:hover a {
+	color:#98A185;               
+}
+
+.featuresMenu ul.nav-tabs > li.map.active a, 
+.featuresMenu ul.nav-tabs > li.map.active a:hover,    
+.featuresMenu ul.nav-tabs > li.map.active:hover a, 
+.featuresMenu ul.nav-tabs > li.map.active a:focus {
+	border-bottom: 10px solid #98A185;
+	padding-bottom: 9px;
+}            
+
+/*.featuresMenu ul li.map:hover {
+		background:url(images/features_categories_sprite.png) no-repeat center -1155px;	έαν θέλουμε στο hover όλα τα icon  menu items να έχουν ίδιο χρώμα 
+}
+
+.featuresMenu ul.nav-tabs > li.map:hover > a {  έαν θέλουμε στο hover όλα τα menu items να έχουν ίδιο χρώμα
+	color:#555555;
+} */
+
+.tab-content ul li {
+	line-height: 25px;
+	margin: 0px;
+	list-style:none;
+}
+
+.carousel {
+	margin-bottom:0px;
+}
+.carousel-inner img{
+	height:500px;
+	min-width:700px;
+}
+
+.carousel-control  {
+	border:0;
+	width: 30px;
+	height: 30px;
+	top: 45%;    
+	opacity:0.6;
+}   
+
+.left {
+ 	background:url(images/previous.png) no-repeat center center;	    
+}
+     
+.right {
+ 	background:url(images/next.png) no-repeat center center;   
+}
+/*======================= Contact area ==========================================*/  
+.container.main_content section.contact {
+	border-top:2px solid #b2b2b2;
+	background-color:#fff;
+	background-image:none;  
+	min-height:568px;
+}            
+.contact form {
+	padding-left:30px;
+	padding-right:20px;
+}
+
+.contact legend {
+	border-bottom:0; 
+	padding-top:72px;     
+	font-size: 35px;
+	font-weight: lighter;
+	margin-bottom:140px;
+}
+
+input:focus:invalid:focus, textarea:focus:invalid:focus, select:focus:invalid:focus { 
+	border:0;
+	border-color: #e9322d;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+textarea, 
+input[type="text"],
+input[type="email"], 
+input[type="password"], 
+input[type="datetime"], 
+input[type="datetime-local"], 
+input[type="date"], 
+input[type="month"], 
+input[type="time"], 
+input[type="week"], 
+input[type="number"], 
+input[type="email"], 
+input[type="url"], 
+input[type="search"], 
+input[type="tel"], 
+input[type="color"], 
+.uneditable-input,
+textarea:focus, 
+input[type="text"]:focus,
+input[type="email"]:focus,
+input:focus:invalid:focus 
+input[type="password"]:focus, 
+input[type="datetime"]:focus, 
+input[type="datetime-local"]:focus, 
+input[type="date"]:focus, 
+input[type="month"]:focus, 
+input[type="time"]:focus, 
+input[type="week"]:focus, 
+input[type="number"]:focus, 
+input[type="email"]:focus, 
+input[type="url"]:focus, 
+input[type="search"]:focus, 
+input[type="tel"]:focus, 
+input[type="color"]:focus, 
+.uneditable-input:focus {  
+	border:0;
+	border-radius:0;
+border-color: transparent;
+outline: 0;
+outline: thin dotted 9;
+-webkit-box-shadow:none;
+-moz-box-shadow: none;
+box-shadow: none;
+border-bottom:1px solid #b2b2b2;
+color:#b2b2b2;
+font-style:italic;
+font-family:"Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+font-size:15px;  
+}
+ 
+textarea  {
+	line-height:25px;  
+	border:0;
+	background-image:url(images/mailstrip.png), url(images/mailstrip.png), url(images/mailstrip.png), url(images/mailstrip.png), url(images/mailstrip.png), url(images/mailstrip.png), url(images/mailstrip.png);
+	background-position:3px 26px, 3px 52px, 3px 78px, 3px 104px, 3px 130px, 3px 156px, 3px 182px, 3px 208px;
+	background-repeat:no-repeat;
+}                  
+
+textarea:focus, textarea:active, textarea:visited,
+input[type="text"]:active, input[type="text"]:focus, input[type="text"]:visited,         
+input[type="email"]:active,  input[type="email"]:focus,  input[type="email"]:visited {
+	border-bottom:0;
+	background-image:none;         	
+}                       
+
+form fieldset button.btn, form fieldset button.btn:hover, form fieldset button.btn:focus, form fieldset button.btn:active {
+	color:#ffffff;         
+	text-shadow:none;
+	font-weight:bold;
+	font-family:"Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	font-size:14px;
+	text-transform:uppercase; 
+	border:0;  
+	border-radius:0;
+	background-color:#999999; 
+	line-height: 25px;  
+	text-align: left;          
+	background-image:url(images/send_message_icon.png);  
+	background-repeat: no-repeat; 
+ 	background-position: 233px 7px;  
+  padding-left:15px; 
+	position: relative;
+	left: 68%;
+	top:40px;  
+	width:283px;   
+	outline:0;
+	outline-offset:0;            
+	-webkit-box-shadow:none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+
+/*======================= Footer area ==========================================*/  
+.footer {
+	min-height:125px;
+	background-color:#cccccc;     
+	color:#808080;  
+	font-size:12px;                    
+ /* background-image:url(images/footerstrip.png), url(images/footerstrip.png), url(images/footerstrip.png), url(images/footerstrip.png), url(images/footerstrip.png);
+	background-position:215px 35px, 445px 35px, 625px 35px, 795px 35px, 910px 35px;      
+	background-repeat:no-repeat; */ 
+	margin-top:30px;
+}                                         
+
+.footer .span2, .footer .span3 {
+	height:65px;
+	margin-top:35px; 
+	margin-bottom:25px;
+	border-right:2px solid#b2b2b2;    
+}              
+
+
+.footer .span2:last-child {
+	border-right:0;
+}
+        
+.footer .polyptychon a{
+	background:url(images/footer_polyptychon.png) no-repeat center;   
+	padding-left: 150px;   
+	padding-bottom:22px;
+	margin-left:42px; 
+}                                 
+ 
+.street-address {
+	display:block;
+}
+
+.phone, .site span {
+	font-weight:bold;
+}
+
+.phone .tel span.tel1, .phone .tel span.tel2,.phone .fax span.fax1, .email {
+	font-weight:normal;
+}
+
+.phone .tel span.tel1, .phone .fax span.fax1 {
+	padding-left:5px;
+}                      
+
+.phone .tel span.tel2 {
+	display:inline-block; 
+	padding-left:15px;	
+}     
+         
+.site {
+	font-size:12px;
+}
+ 
+.site > span:first-child {
+	margin-left: -10px;
+	padding-right: 5px;
+}
+
+.website {
+	padding-left:5px;  
+}       
+   
+.email a, .website a {
+	color:#808080;  
+}
+
+.footer .social a.facebook {
+	background:url(images/footer_facebook_icon.png) no-repeat center;
+	padding-left:75px;
+	margin-left:20px;
+}                                                                                

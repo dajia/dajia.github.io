@@ -1,0 +1,76 @@
+.featuresMenu .features_menu.nav-tabs .span3 {
+	margin-top:20px;
+}
+
+.featuresMenu .features_menu.nav-tabs a {
+	text-transform:uppercase;   
+	text-align:center;   
+	color:#b3b3b3;
+	font-size:16px;	 
+	display: block;
+	padding-top: 100px;
+	padding-bottom: 39px; 
+	width:130px;  
+	margin-left: 47px;
+} 
+
+.featuresMenu .features_menu.nav-tabs .log a {
+	padding-bottom:19px;
+}
+
+.featuresMenu .features_menu.nav-tabs a:hover, .featuresMenu .features_menu.nav-tabs a:focus {
+	text-decoration:none;     
+}
+
+.featuresMenu > .features_menu.nav-tabs > .collection  a {
+	background:url(images/features_categories_sprite.png) no-repeat center -420px;	      	
+}
+
+.featuresMenu > .features_menu.nav-tabs > .collection a:hover, .featuresMenu > .features_menu.nav-tabs > .collection a:focus {
+	color:#819db3;
+	border-bottom:10px solid #819db3;
+}
+
+.featuresMenu > .features_menu.nav-tabs > .collection a:hover, .featuresMenu > .features_menu.nav-tabs > .collection a:focus {           
+	background:url(images/features_categories_sprite.png) no-repeat center 0px;	 
+}
+
+.featuresMenu > .features_menu.nav-tabs > .log  a {
+	background:url(images/features_categories_sprite.png) no-repeat center -525px;
+}
+
+.featuresMenu > .features_menu.nav-tabs > .log a:hover, .featuresMenu > .features_menu.nav-tabs > .log a:focus {
+	color:#9C8B9C;
+	border-bottom:10px solid #9C8B9C; 	
+}
+    
+.featuresMenu > .features_menu.nav-tabs > .log a:hover, .featuresMenu > .features_menu.nav-tabs > .log a:focus {
+	background:url(images/features_categories_sprite.png) no-repeat center -105px;   	
+}
+
+.featuresMenu > .features_menu.nav-tabs > .maintenance a {
+	background:url(images/features_categories_sprite.png) no-repeat center -630px;
+}
+
+.featuresMenu > .features_menu.nav-tabs > .maintenance a:hover, .featuresMenu > .features_menu.nav-tabs > .maintenance a:focus {
+	color:#B5A38B;
+	border-bottom:10px solid #B5A38B;
+}
+
+.featuresMenu > .features_menu.nav-tabs > .maintenance a:hover, .featuresMenu > .features_menu.nav-tabs > .maintenance a:focus {
+	background:url(images/features_categories_sprite.png) no-repeat center -210px; 
+}
+
+
+.featuresMenu > .features_menu.nav-tabs > .map a {
+	background:url(images/features_categories_sprite.png) no-repeat center -735px;
+}
+
+.featuresMenu > .features_menu.nav-tabs > .map a:hover, .featuresMenu > .features_menu.nav-tabs > .map a:focus {
+	color:#98A185;
+	border-bottom:10px solid #98A185;
+}            
+
+.featuresMenu > .features_menu.nav-tabs > .map a:hover, .featuresMenu > .features_menu.nav-tabs > .map a:focus {
+	background:url(images/features_categories_sprite.png) no-repeat center -315px;
+}

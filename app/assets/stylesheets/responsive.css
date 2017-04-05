@@ -1,0 +1,359 @@
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { ... }
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+
+body{
+	padding:0;
+}
+.container {
+	min-width:320px;
+}    
+
+header .container {
+	width:400px;
+}                  
+
+.navbar a.brand {
+	width: 60px;
+	padding-top: 0;
+	margin-top: -4px;
+	cursor: default;
+	margin-left:0;
+	visibility:visible;
+}                              
+
+
+.nav-collapse.collapse .nav li:first-child a span {
+	visibility:visible;    
+	margin-left:0px;
+}  
+       
+           
+.navbar-inverse .nav li {
+	padding-left:10px;
+}
+
+.navbar-inverse .nav li a {
+	padding-left:0;
+}
+
+       
+.navbar-inverse .nav li:first-child a img {
+	padding-left:0px; 
+	visibility:hidden;
+}
+
+.container.main_content section {
+	min-height:710px;   
+}   
+ 
+.navbar-inverse .nav li.active > a, 
+.navbar-inverse .nav li.active > a:hover, 
+.navbar-inverse .nav li.active > a:focus,
+ a.brand.active, 
+a.brand.active:hover, 
+a.brand.active:focus {
+	width:150px;
+}
+
+.navbar-inverse .btn-navbar, 
+.navbar-inverse .btn-navbar:hover, 
+.navbar-inverse .btn-navbar:focus, 
+.navbar-inverse .btn-navbar:active, 
+.navbar-inverse .btn-navbar.active, 
+.navbar-inverse .btn-navbar.disabled, 
+.navbar-inverse .btn-navbar[disabled] {
+	margin:15px;
+}
+
+.navbar-inverse .nav-collapse .nav > li > a:hover, .navbar-inverse .nav-collapse .nav > li > a:focus, .navbar-inverse .nav-collapse .dropdown-menu a:hover, .navbar-inverse .nav-collapse .dropdown-menu a:focus {
+background-color: transparent;
+}
+
+   
+.nav-collapse .nav > li > a {
+webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+border-radius: 0px; 
+}     
+
+.language-switcher {
+	float:left;
+	margin-left:0;
+}
+
+
+.container.main_content section.herit {
+	min-height:320px;
+}
+
+
+.herit .herit_img {
+	background-size:203px 82px; 
+	background-position:center;
+	height:150px;
+}
+            
+.herit .herit_slogan {
+	background-size:240px 110px;
+	background-position:center;
+	height:150px;    	
+}
+
+
+
+.container.main_content section.about{
+	/*width:280px; */     
+	min-height:620px;
+}
+
+.description {
+	width:300px;  
+	height:520px;   
+	margin-top:0px;
+	position:relative;
+	top:40px;
+	left:0;
+}
+
+.squares {
+	background-image: url(images/description_square.png), url(images/description_square.png), url(images/description_square.png), url(images/description_square.png);
+	background-position: 0 0, 320px 0, 0 520px, 320px 520px;
+	background-repeat: no-repeat;       
+	width: 330px;
+	height: 530px;
+	margin-left: -4px;
+	margin-top: -6px;   
+	background-image:none;
+}
+        
+.description p.el, .description p {
+padding: 15px;     
+margin-left:auto;  
+margin-right:auto;  
+text-align: center;
+font-size: 12px;
+line-height: 23px;
+font-weight: lighter;
+color: #000;
+/*height: 376px; */ 
+width:260px;     
+border: 2px solid #8c8c8c;  
+height:auto;
+}
+       
+ 
+.featuresMenu .nav.nav-tabs {
+	height:130px;
+}
+
+.featuresMenu ul li, .featuresMenu .nav.nav-tabs .span3 {
+	height:130px; 
+	width: 90px;
+	display: inline-block;  
+	margin-top:0px;  
+}                    
+                
+.featuresMenu .nav.nav-tabs .span3 {
+/*	background-color:yellow;      */
+	float:left;         
+	display:inline;
+	margin-right:5px;
+	margin-bottom:0px;
+	padding-top:20px;
+}                    
+
+
+
+.featuresMenu ul li a, .featuresMenu .nav.nav-tabs .span3 a  {
+	width:80px;        
+	padding-left:0px;          
+	padding-right:0px;   
+	font-size:12px; 
+	padding-top:50px; 
+	height:50px; 
+} 
+
+.featuresMenu .nav.nav-tabs.row-fluid a.offset2:first-child {
+	margin-left:5px;
+}                     
+
+/*====================== Collection ====================================*/
+.featuresMenu ul li.collection a {
+	background-image:url(images/features_categories_vertical_srite.png);
+	background-repeat:no-repeat;
+	background-position:-375px 0px;
+	background-size:750px 45px; 	 
+} 
+
+.featuresMenu ul.nav-tabs > li.collection a:hover, 
+.featuresMenu ul.nav-tabs > li.collection.active a, 
+.featuresMenu ul.nav-tabs > li.collection:hover a,  
+.featuresMenu ul.nav-tabs > li.collection.active a:hover, 
+.featuresMenu ul.nav-tabs > li.collection.active a:focus {
+	background-image:url(images/features_categories_vertical_srite.png);
+	background-repeat:no-repeat;
+	background-position: 20px 0px;
+	background-size:750px 45px;     
+}      
+   
+.featuresMenu ul.nav-tabs > li.collection.active a, 
+.featuresMenu ul.nav-tabs > li.collection.active a:hover,    
+.featuresMenu ul.nav-tabs > li.collection.active:hover a, 
+.featuresMenu ul.nav-tabs > li.collection.active a:focus {
+	padding-bottom: 0px;
+}
+/*====================== Log ====================================*/         
+
+.featuresMenu ul li.log a {
+	background-image:url(images/features_categories_vertical_srite.png);
+	background-repeat:no-repeat;
+	background-position:-475px 0px;
+	background-size:750px 45px; 	 
+} 
+
+.featuresMenu ul.nav-tabs > li.log a:hover, 
+.featuresMenu ul.nav-tabs > li.log.active a, 
+.featuresMenu ul.nav-tabs > li.log:hover a,  
+.featuresMenu ul.nav-tabs > li.log.active a:hover, 
+.featuresMenu ul.nav-tabs > li.log.active a:focus {
+	background-image:url(images/features_categories_vertical_srite.png);
+	background-repeat:no-repeat;
+	background-position:-80px 0px;
+	background-size:750px 45px;     
+}      
+
+
+.featuresMenu ul.nav-tabs > li.log.active a, 
+.featuresMenu ul.nav-tabs > li.log.active a:hover,    
+.featuresMenu ul.nav-tabs > li.log.active:hover a, 
+.featuresMenu ul.nav-tabs > li.log.active a:focus {
+	padding-bottom: 0px;
+}
+/*====================== Maintenacne ====================================*/     
+
+.featuresMenu ul li.maintenance a {
+	background-image:url(images/features_categories_vertical_srite.png);
+	background-repeat:no-repeat;
+	background-position:-575px 0px;
+	background-size:750px 45px; 	 
+} 
+
+.featuresMenu ul.nav-tabs > li.maintenance a:hover, 
+.featuresMenu ul.nav-tabs > li.maintenance.active a, 
+.featuresMenu ul.nav-tabs > li.maintenance:hover a,  
+.featuresMenu ul.nav-tabs > li.maintenance.active a:hover, 
+.featuresMenu ul.nav-tabs > li.maintenance.active a:focus {
+	background-image:url(images/features_categories_vertical_srite.png);
+	background-repeat:no-repeat;
+	background-position:-180px 0px;
+	background-size:750px 45px;     
+}
+.featuresMenu ul.nav-tabs > li.maintenance.active a, 
+.featuresMenu ul.nav-tabs > li.maintenance.active a:hover,    
+.featuresMenu ul.nav-tabs > li.maintenance.active:hover a, 
+.featuresMenu ul.nav-tabs > li.maintenance.active a:focus {
+	padding-bottom: 0px;
+}      
+
+
+/*====================== Map ====================================*/    
+
+.featuresMenu ul li.map a {
+	background-image:url(images/features_categories_vertical_srite.png);
+	background-repeat:no-repeat;
+	background-position:-670px 0px;
+	background-size:750px 45px; 	 
+} 
+
+.featuresMenu ul.nav-tabs > li.map a:hover, 
+.featuresMenu ul.nav-tabs > li.map.active a, 
+.featuresMenu ul.nav-tabs > li.map:hover a,  
+.featuresMenu ul.nav-tabs > li.map.active a:hover, 
+.featuresMenu ul.nav-tabs > li.map.active a:focus {
+	background-image:url(images/features_categories_vertical_srite.png);
+	background-repeat:no-repeat;
+	background-position:-275px 0px;
+	background-size:750px 45px;     
+}  
+
+.featuresMenu ul.nav-tabs > li.map.active a, 
+.featuresMenu ul.nav-tabs > li.map.active a:hover,    
+.featuresMenu ul.nav-tabs > li.map.active:hover a, 
+.featuresMenu ul.nav-tabs > li.map.active a:focus {
+	padding-bottom: 0px;
+}    
+
+.featuresMenu .tab-content {
+	padding-left:10px;
+	padding-right:10px;
+}
+                   
+
+
+.featuresMenu ul li {
+	display: block;
+	width: 100%;      
+	height:auto;
+	margin-bottom:20px;
+}
+
+/*======================= Contact Area ====================================*/
+.container.main_content section.contact {
+	min-height: 510px;     
+
+}
+
+form fieldset button.btn, form fieldset button.btn:hover, form fieldset button.btn:focus, form fieldset button.btn:active {
+	left:0%;
+	width: 270px;   
+
+}   
+
+
+.contact legend {
+	margin-bottom:20px;
+}	     
+
+.footer {
+	text-align: left;
+}
+
+
+.footer .span2, .footer .span3 {
+	border-right:0;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left:40px;  
+	margin-right:30px; 
+	height:60px;  	       
+	width:auto;
+}      
+
+.footer .span2:last-child {
+	margin-bottom:0;
+}
+
+.phone .tel span.tel2, .website a {
+display: block;
+}
+
+.site > span:first-child {
+	margin-left:0;
+}
+
+.contact legend {
+	width:280px;
+	line-height: 50px;
+}                   
+
+.input-xlarge {
+	width:80%;
+}          
+
+.footer .social a.facebook  {
+	margin-left:0;
+}
+}
